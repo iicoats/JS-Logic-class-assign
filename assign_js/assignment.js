@@ -36,12 +36,15 @@ function createQuestion(questionText){
         answerP.textContent = "You answered Yes.";
     }else if (userAnswer.toLowerCase() === "no");{
     answerP.textContent = "You answered No.";
-} else {  
+// } else {  
     answerP.textContent = "Invalid Answer";
 }
     questionDiv.appendChild(answerP);
 }
 
 createQuestion("Is JavaScript a Progamming Language?");
+createQuestion("Does JavaScript remind you of Algebra?");
+
+
 
 
